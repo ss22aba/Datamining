@@ -49,7 +49,7 @@ cm = confusion_matrix(y_test, y_pred)
 print("**Confusion Matrix values**")
 print(cm,"\n")
 
-# Calculating precision and reall and accuracy
+# Calculating precision,recall and accuracy
 ac = accuracy_score(y_test,y_pred)
 precision = precision_score(y_test, y_pred)
 recall = recall_score(y_test, y_pred)
